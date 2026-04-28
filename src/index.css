@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
 
+
+@theme {
+  /* This creates the utility class 'font-brand' */
+  --font-brand: "DXFiggle", sans-serif; 
+}
+
+
+@font-face {
+  font-family: "DXFiggle";
+  /* Make sure this path points correctly to your font file */
+  src: url("./assets/fonts/DXFiggle.otf") format("opentype");
+  font-weight: light;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
